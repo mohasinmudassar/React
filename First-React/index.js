@@ -1,9 +1,13 @@
+// Rendering page using DOM API
 //ReactDOM.render(<ul><li>Coffee</li><li>Milk</li><li>Tea</li></ul>, document.getElementById("root"));
+
+// Imperative approach using Vanilla JS
 /*const h1 = document.createElement("h1");
 h1.textContent = "Hello World";
 h1.className ="header";
 document.get    ElementById("root").append(h1);*/
 
+//Using React Js creating Nav Bar
 const page = (
     <nav>
         <h1>My Page</h1>
