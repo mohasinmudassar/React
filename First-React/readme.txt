@@ -7,3 +7,10 @@ In this i have learned some basics of react.
 > What is Declrative (Just give the Instruction it will take care of all the process. e.g React) 
 > Imperative (Describing ever Step to the computer that how to do something. e,g; Vanialla Java Script you have to define every element and append the childs).
 > Composable (React multiple components combine to form another big react component "one of the best featuresof react")
+> Created Small Static page using React. (project_1.js)
+>> Creating functions / Components (project_1.js)
+> Components are reusable pieces of code that we can use to build applications.
+> Components Conventions:
+> 1. Components must start with a Capital letter
+> 2. Wrap it in Angular brackets < function /> when calling
+
