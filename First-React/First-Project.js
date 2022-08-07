@@ -1,13 +1,18 @@
+
+import Header from "./Header";
+import Footer from "./Footer";
+import MainContent from "./MainContent";
+
+
 // Parent/ Child components
 // Composing Components Together
-
+/*
 // Seperate Header component
 function Header(){
     return(
             <header>
                 <nav className= "container">
                     <img className= "item0" src="react1.png"></img>
-                    {/*Styling Nav using "className = nav-items " */}
                     <ul className = "nav-items">
                         <li className= "space">Pricing</li>
                         <li className= "space">About</li>
@@ -17,17 +22,17 @@ function Header(){
             </header>
     )
 }
+*/
 // Seperate Footer Component
-function Footer(){
+/*function Footer(){
     return(
         <footer className="footer">
                 <small>"© 2022 Mohasin Mudassar development. All rights reserved."</small>
         </footer>
     )
-}
-
+}*/
 // Seperate MainContent component
-function MainContent(){
+/*function MainContent(){
     return(
         <div>
             <h1>Why I want to learn React?</h1>
@@ -39,10 +44,9 @@ function MainContent(){
                 <li>It is free.</li>
             </ol>
         </div>
-        
     )
-}
-function Page () {
+}*/
+function App () {
     return(
         <div>
             {/*Calling Header, Main Content & Footer component in main Page*/}
@@ -52,8 +56,7 @@ function Page () {
         </div>
     )
 }
-
 ReactDOM.render(
-    <Page/>,
+    <App/>,
     document.getElementById("root")
 )

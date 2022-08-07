@@ -29,3 +29,9 @@ In this i have learned some basics of react.
 >  Static page.
 >  Some styling with flex box navbar.
 >  Used React (Compoising Components)
+
+
+>>>>> Organizing Components
+
+>  Adding different components to different files
+>  New file name should be same to the component name as in Capital First letter
