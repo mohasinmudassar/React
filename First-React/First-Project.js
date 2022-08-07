@@ -1,12 +1,12 @@
 
-import Header from "./Header";
-import Footer from "./Footer";
-import MainContent from "./MainContent";
+//import Header from "./Header";
+//import Footer from "./Footer";
+//import MainContent from "./MainContent";
 
 
 // Parent/ Child components
 // Composing Components Together
-/*
+
 // Seperate Header component
 function Header(){
     return(
@@ -22,17 +22,17 @@ function Header(){
             </header>
     )
 }
-*/
+
 // Seperate Footer Component
-/*function Footer(){
+function Footer(){
     return(
         <footer className="footer">
                 <small>"© 2022 Mohasin Mudassar development. All rights reserved."</small>
         </footer>
     )
-}*/
+}
 // Seperate MainContent component
-/*function MainContent(){
+function MainContent(){
     return(
         <div>
             <h1>Why I want to learn React?</h1>
@@ -45,7 +45,7 @@ function Header(){
             </ol>
         </div>
     )
-}*/
+}
 function App () {
     return(
         <div>
