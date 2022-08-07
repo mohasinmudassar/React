@@ -15,11 +15,17 @@ In this i have learned some basics of react.
 > 1. Components must start with a Capital letter
 > 2. Wrap it in Angular brackets < function /> when calling
 
+>>>>>
 
->> Composing Components (composing_components)
->  Creaying seperate header components and calling them in main header component.
+>> Composing Components (First-Project)
+>  Creating seperate header components and calling them in main header component.
 >  Creating seperate component for every section and calling them in main Page.
 >  This is Useful in large Projects.
 
->> React (JSX) Styling (composing_components)
+>> React (JSX) Styling (First-Project)
 >  used as (className = " .... ")
+
+>> First Project has been completed in this which is:
+>  Static page.
+>  Some styling with flex box navbar.
+>  Used React (Compoising Components)
