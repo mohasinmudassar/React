@@ -43,13 +43,22 @@ ReactDOM.render(
 function Me () {
     return(
         <div>
+            <header>
+                <nav>
+                    <img src="react.png" alt="react" width="40" height="40"></img>
+                </nav>
+            </header>
             <h1>Why I want to learn React?</h1>
+            <h2>Reasons</h2>
             <ol>
                 <li>It is fun</li>
                 <li>It is easy</li>
                 <li>It is fast</li>
                 <li>It is free</li>
             </ol>
+            <footer>
+                <small>"© 2022 Mohasin Mudassar development. All rights reserved."</small>
+            </footer>
         </div>
     )
 }
