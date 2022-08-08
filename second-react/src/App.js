@@ -1,12 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
 import Navbar from './Navbar';
 import Main from './Main';
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div >
+      <header>
         <Navbar />
         <Main/>
         <h1>Mohasin is here!!!</h1>
@@ -15,3 +13,4 @@ export default function App() {
   );
 }
 
+export default App;
