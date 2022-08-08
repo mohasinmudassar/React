@@ -3,11 +3,11 @@ import "./index.css"
 
 export default function Navbar(){
     return (
-        <nav className="container">
-            <img src="../react1.png"></img>
-            <h1>React Facts</h1>
+        <nav >
+            <img className ="nav-img" src= " https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="react" />
+            <h1 className="nav-h1">React Facts</h1>
 
-            <h1 className="nav-bar">React Course - Project 1</h1>
-        </nav>
+            <h2 className="nav-h2"> React Course - Project 1</h2>
+        </nav>    
     )
 }
