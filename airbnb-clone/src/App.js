@@ -1,19 +1,13 @@
-function App() {
+import React from 'react';
+import Navbar from './Navbar';
+import Hero from './Hero';
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      <Hero/>
     </div>
   );
 }
-
-export default App;
