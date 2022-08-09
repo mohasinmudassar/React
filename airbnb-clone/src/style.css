@@ -26,6 +26,9 @@ nav {
 
 }
 
+hero {
+  padding: 20px;
+}
 .hero-img{
   width: auto;
   margin-top: 40px;
