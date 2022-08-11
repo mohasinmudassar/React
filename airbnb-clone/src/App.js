@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import Hero from './Hero';
 import Card from './Card';
 import Footer from './Footer';
+import Contact from './Contact';
 
 
 export default function App() {
@@ -10,10 +11,8 @@ export default function App() {
     <div>
       <Navbar/>
     
-      <Card img = "../airbnb-logo.png"/>
       <Card/>
-      <Card/>
-      <Card/>
+      <Contact/>
       
     </div>
   );
