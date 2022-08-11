@@ -1,19 +1,18 @@
 import React from "react";
 import "./contact.css";
 
-export default function Contact() {
+export default function Contact(props) {
     return (
         <div className="contact-card">
-            <img src="../cat1.jpeg"/>
-            <h3>Mr. Whiskerson</h3>
+            <img src={props.img}/>
+            <h3>{props.name}</h3>
             <div className="info-group">
                 <img src="../phone.png" />
-                <p>(212) 555-1234</p>
+                <p>{props.phone}</p>
             </div>
             <div className="info-group">
                 <img src="../mail.png" />
-                <p>mr.whiskaz@catnap.meow</p>
-                <p>mohasin</p>
+                <p>{props.email}</p>
             </div>
         </div>
         
