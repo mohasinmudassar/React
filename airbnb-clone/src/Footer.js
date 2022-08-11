@@ -4,11 +4,9 @@ import './style.css';
 
 export default function Footer(){
     return(
-        <div className="footer">
-                    <Navbar/>
-                    <Card/>="footer">
+            <footer className="footer">
                     <small>"© 2022 Mohasin Mudassar development. All rights reserved."</small>
-            </div>
+            </footer>
         )
     
 }
