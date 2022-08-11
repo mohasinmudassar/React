@@ -10,8 +10,9 @@ export default function App() {
   return (
     <div>
       <Navbar/>
-    
-      <Card/>
+      <Contact/>
+      <Contact/>
+      <Contact/>
       <Contact/>
       
     </div>
