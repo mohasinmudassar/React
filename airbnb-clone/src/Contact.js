@@ -13,6 +13,7 @@ export default function Contact() {
             <div className="info-group">
                 <img src="../mail.png" />
                 <p>mr.whiskaz@catnap.meow</p>
+                <p>mohasin</p>
             </div>
         </div>
         
