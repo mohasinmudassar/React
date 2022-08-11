@@ -14,5 +14,5 @@ export default function Card() {
             <p>Life lessons with Katie Zaferes</p>
             <p ><span className="bold">From 136$ </span>/ person</p>
         </div>
-    )
+    ) 
 }

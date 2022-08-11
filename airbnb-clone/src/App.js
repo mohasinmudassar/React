@@ -10,8 +10,10 @@ export default function App() {
     <div>
       <Navbar/>
     
+      <Card img = "../airbnb-logo.png"/>
       <Card/>
-    
+      <Card/>
+      <Card/>
       
     </div>
   );
