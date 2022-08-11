@@ -8,7 +8,7 @@ export default function Card(props) {
                 <div className="card-stats">
                     <img src='../Star 1.png' alt='star' className="card-star"/>
                     <span> {props.rating} </span>
-                    <span className="grey"> {props.reviews} • </span>
+                    <span className="grey"> ({props.reviews}) • </span>
                     <span className="grey">{props.country}</span>
                 </div>
                 <p>{props.title}</p>
