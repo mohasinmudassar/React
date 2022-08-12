@@ -15,7 +15,7 @@ export default function App() {
       image="../images/person-1.png"
       rating="5.0"
       reviews={42}
-      country="England"
+      location="England"
       title="Stay at home and do nothing"
       price={10}
       />
@@ -23,7 +23,7 @@ export default function App() {
       image="../images/person-3.jpeg"
       rating="4.0"
       reviews={22}
-      country="USA"
+      location="USA"
       title="Stay at home and Live Life"
       price={20}
       />    
