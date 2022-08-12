@@ -1,23 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import './index.css';
+import Jokes from './Jokes';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      <Jokes />
     </div>
   );
 }
-
-export default App;
