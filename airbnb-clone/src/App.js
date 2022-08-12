@@ -12,7 +12,7 @@ export default function App() {
       <Navbar/>
       <Hero/>
       <Card
-      image="../person-1.png"
+      image="../images/person-1.png"
       rating="5.0"
       reviews={42}
       country="England"
@@ -20,7 +20,7 @@ export default function App() {
       price={10}
       />
       <Card
-      image="../person-3.jpeg"
+      image="../images/person-3.jpeg"
       rating="4.0"
       reviews={22}
       country="USA"
