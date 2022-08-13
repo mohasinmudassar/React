@@ -2,8 +2,12 @@ import React from 'react';
 import './index.css';
 
 
-export default function Joke() {
+export default function Joke(props) {
     return(
-        <h1>Joke Here</h1>
+        <div>
+            <h3>{props.setup}</h3>
+            <p>{props.punchline}</p>
+        </div>
+        
     )
 }
