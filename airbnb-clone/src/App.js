@@ -5,7 +5,8 @@ import Card from './Card';
 import Footer from './Footer';
 import data from "./Data";
 
-
+console.log(data);
+/*
 export default function App() {
 
     const carddata = Data.map(data => {
@@ -22,7 +23,7 @@ export default function App() {
     </div>
   );
 }
-
+*/
 /*
 <Card
       image="../images/person-1.png"
