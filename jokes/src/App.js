@@ -1,8 +1,12 @@
 import React from 'react';
 import './index.css';
 import Jokes from './Jokes';
+import jokesdata from './jokesdata';
 
 export default function App() {
+  const jokeElements = jokesdata.map(joke => {
+    return <Jokes />
+  });
   return (
     <div >
       
