@@ -5,7 +5,12 @@ import Jokes from './Jokes';
 export default function App() {
   return (
     <div >
-      <Jokes
+      
+    </div>
+  );
+}
+/*
+<Jokes
         setup = "How did the hacker escape the police?"
         punchline = "He just ransomware!"
       />
@@ -21,6 +26,4 @@ export default function App() {
         setup = "What's the best thing about Switzerland?"
         punchline = "I don't know, but the flag is a big plus!"
       />
-    </div>
-  );
-}
+*/
