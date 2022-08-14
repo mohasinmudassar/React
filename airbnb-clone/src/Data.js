@@ -26,7 +26,7 @@ export default [
         openSpots: 27,
     },
     {
-        id: 2,
+        id: 3,
         title: "Learn Wedding Photography with Katie Zaferes",
         description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
         price: 145,

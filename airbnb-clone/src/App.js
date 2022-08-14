@@ -11,6 +11,7 @@ export default function App() {
     const cards = data.map(item => {
       return(
         <Card
+          key={item.id} /*we use some unique key to identify each card*/
           image={item.coverImg}
           rating={item.stats.rating}
           reviews={item.stats.reviewCount}
@@ -29,8 +30,7 @@ export default function App() {
       <section className = "card-list"> 
         {cards}
       </section>
-     
-  
+      <Footer/>
         
       
     </div>
