@@ -5,11 +5,11 @@ import jokesdata from './jokesdata';
 
 export default function App() {
   const jokeElements = jokesdata.map(joke => {
-    return <Jokes />
+    return <Jokes setup= {joke.setup} punchline = {joke.punchline} />
   });
   return (
     <div >
-      
+      {jokeElements}
     </div>
   );
 }
