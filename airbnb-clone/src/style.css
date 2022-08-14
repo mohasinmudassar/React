@@ -61,6 +61,7 @@ section {
   flex: 0 0 auto; /* Added for showing cards in Row*/
   display: flex;  /* Added for showing cards in Row*/
   flex-direction: column; /* Added for showing cards in Row*/
+  position: relative; /* Added for showing badge on cards*/
 }
 .card-image{
   width: 100%;
@@ -97,4 +98,16 @@ section {
     text-align: center;
     font-size: 12px;
     color: rgb(93, 92, 92)
+}
+
+/* Added for showing badge on cards*/
+
+.card-badge{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
 }
