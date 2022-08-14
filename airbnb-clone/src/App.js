@@ -7,21 +7,15 @@ import data from "./Data";
 
 
 export default function App() {
-
+/*
     const carddata = Data.map(data => {
         return <Card image ={img.coverImg}  rating = {rat.rating} reviews = {rev.status(reviewCount)} location = {local.location} title = {tit.title} price = {pr.price} /> })
-    
+*/    
   return (
     <div>
       <Navbar/>
       <Hero/>
       
- 
-      
-    </div>
-  );
-}
-/*
   
       <Card
       image="../images/person-1.png"
@@ -38,4 +32,8 @@ export default function App() {
       location="USA"
       title="Stay at home and Live Life"
       price={20}
-      />  */
+      />   
+      
+    </div>
+  );
+}
