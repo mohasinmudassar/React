@@ -9,7 +9,7 @@ export default [
             rating: 5.0,
             reviewCount: 6
         },
-        location: "Online",
+        location: "Of-line",
         openSpots: 0,
     },
     {
@@ -35,7 +35,7 @@ export default [
             rating: 5.0,
             reviewCount: 50
         },
-        location: "Online",
-        openSpots:0,
+        location: "Of-line",
+        openSpots:10,
     }
 ]

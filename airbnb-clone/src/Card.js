@@ -2,9 +2,14 @@ import React from "react";
 import "./style.css";
 
 export default function Card(props) {
+    let badgeText
+    if (props.openSpots === 0) {
+        badgeText = "SOLD OUT"
+    } else if (props.location === "Online") {
+        badgeText = "ONLINE"}
     return(
             <div className="card ">
-                {props.openSpots === 0 && <div className="card-badge">Sold out</div>}
+                {badgeText && <div className="card-badge">{badgeText}</div>}
                 <img src= {props.image} className="card-image"/>
                 <div className="card-stats">
                     <img src='../images/Star 1.png' alt='star' className="card-star"/>
