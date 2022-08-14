@@ -58,11 +58,19 @@ section {
   width: 192px;
   font-size: 14px;
   margin-left: 40px;
+  flex: 0 0 auto; /* Added for showing cards in Row*/
+  display: flex;  /* Added for showing cards in Row*/
+  flex-direction: column; /* Added for showing cards in Row*/
 }
 .card-image{
   width: 100%;
   height: auto;
   border-radius: 9px;
+}
+/* Added for showing cards in Row*/
+.card-title{
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .card-stats{
   display: flex;
@@ -71,4 +79,11 @@ section {
 }
 .card-star{
   margin-left: 5px;
+}
+/* Added for showing cards in Row*/
+.card-list{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow: auto;
 }
