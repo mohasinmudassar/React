@@ -8,9 +8,20 @@ import data from "./Data";
 
 export default function App() {
 
-    const cards = data.map(data => {
-        return <Card image ={image.coverImg}  rating = {rating.rating} reviews = {reviews.reviewCount} location = {location.location} title = {title.title} price = {price.price} /> })
-   
+    const cards = data.map(item => {
+      return(
+        <Card
+          image={item.coverImg}
+          rating={item.stats.rating}
+          reviews={item.stats.reviewCount}
+          location={item.location}
+          title={item.title}
+          price={item.price}
+
+        />
+      )
+    })
+
   return (
     <div>
       <Navbar/>
