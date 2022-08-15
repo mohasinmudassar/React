@@ -13,6 +13,8 @@ export default function App() {
         <Card
           key={item.id} /*we use some unique key to identify each card*/
           item = {item}
+
+          /* Removing Individual properties passing*/
           /*image={item.coverImg}
           rating={item.stats.rating}
           reviews={item.stats.reviewCount}
