@@ -12,7 +12,11 @@ export default function App() {
       return(
         <Card
           key={item.id} /*we use some unique key to identify each card*/
-          item = {item}
+          /* Spreading object properties*/
+          {...item}
+          
+          /* Object item*/
+          /*item = {item}*/
 
           /* Removing Individual properties passing*/
           /*image={item.coverImg}
