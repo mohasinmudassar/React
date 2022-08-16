@@ -32,15 +32,13 @@ body {
   margin-left: 60px;
   display: flex;
   flex-direction: row;
-
 }
 .grey{
   color: #918E9B;
   font-size: 17px;
   text-align: center;
   position: relative;
-
-  
+  margin-left: 30px;
 }
 .card-image{
   width: 225px;

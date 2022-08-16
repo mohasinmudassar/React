@@ -14,7 +14,7 @@ export default function Card(props){
                     <a className="grey" href={props.googleMapsUrl} target="_blank"><u>View on Google Maps</u></a>
                 </div>
                     <h1 className="des-h1">{props.title}</h1>
-                    <span className = "des-date">{props.date}</span>
+                    <span className = "des-date">{props.startDate} - {props.endDate}</span>
                     <p className="des-text">{props.description}</p>    
             </div>
             </div>
