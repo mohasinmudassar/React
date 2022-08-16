@@ -41,10 +41,14 @@ main{
   font-family: "karla", sans-serif;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
+  text-indent: 5px;
 }
 .form-button{
   grid-column: 1/-1;
   font-family: "karla", sans-serif;
   font-size: 20px;
-
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border:none;
+  cursor: pointer;
 }
