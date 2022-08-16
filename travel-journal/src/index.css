@@ -28,7 +28,7 @@ body {
   color: azure;
 }
 .card{
-  margin-top: 80px;
+  margin-top: 50px;
   margin-left: 60px;
   display: flex;
   flex-direction: row;
@@ -77,4 +77,10 @@ body {
 .des-text{
   font-size: 16px;
   line-height: 1.4;
+}
+.hr{
+  width: 100%;
+  border: 1px solid #E0E0E0;
+  margin-top: 40px;
+
 }

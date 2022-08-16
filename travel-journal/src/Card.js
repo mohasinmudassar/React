@@ -3,6 +3,7 @@ import "./index.css";
 
 export default function Card(){
     return(
+        <div>
         <div className="card">
 
                 <img className=" card-image" src = "../photos/japan.jpeg"/>
@@ -16,10 +17,10 @@ export default function Card(){
                     <span className = "des-date">12 Jan-2021 - 24 Jan,2021</span>
                     <p className="des-text">Mount Fuji is the tallest mountain in Japan, standing at 
                         3,776 meters (12,380 feet). Mount Fuji is the single most 
-                        popular tourist site in Japan, for both Japanese and foreign tourists.</p>
+                        popular tourist site in Japan, for both Japanese and foreign tourists.</p>    
             </div>
-                
-
+            </div>
+            <hr className="hr" />
         </div>
     )
 }
