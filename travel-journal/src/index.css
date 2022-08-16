@@ -33,18 +33,31 @@ body {
   margin-left: 60px;
 
 }
+.grey{
+  color: #918E9B;
+  
+}
 .card-image{
   width: 225px;
   height: 298px;
   margin-top: 80px;
   border-radius: 5px;
 }
-.card-stats{
+.location-stats{
   display: flex;
   flex-direction: row;
+
+
 }
 .card-location{
-  margin-left: 5px;
-  width: 30px;
-  height:30px;
+  width: 25px;
+  height:25px;
+}
+.des-h1{
+  font-size: 40px;
+  font-weight: bold;
+}
+.des-date{
+  font-size: 20px;
+  font-weight: bold;
 }
