@@ -6,10 +6,10 @@ export default function Card(){
         <div className="card">
 
                 <img className=" card-image" src = "../photos/japan.jpeg"/>
-
+            <div className="card-info">
                 <div className="location-stats">
                     <img src='../photos/location.png' alt='location' className="card-location"/>
-                    <span>JAPAN</span>
+                    <span className="loc-dest">JAPAN</span>
                     <span className="grey"><u>View on Google Maps</u></span>
                 </div>
                     <h1 className="des-h1">Mount Fuji</h1>
@@ -17,10 +17,9 @@ export default function Card(){
                     <p className="des-text">Mount Fuji is the tallest mountain in Japan, standing at 
                         3,776 meters (12,380 feet). Mount Fuji is the single most 
                         popular tourist site in Japan, for both Japanese and foreign tourists.</p>
-
+            </div>
                 
 
-            <hr/>
         </div>
     )
 }

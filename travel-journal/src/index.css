@@ -28,36 +28,53 @@ body {
   color: azure;
 }
 .card{
-  width: 192px;
-  font-size: 14px;
+  margin-top: 80px;
   margin-left: 60px;
+  display: flex;
+  flex-direction: row;
 
 }
 .grey{
   color: #918E9B;
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+
   
 }
 .card-image{
   width: 225px;
   height: 298px;
-  margin-top: 80px;
   border-radius: 5px;
 }
 .location-stats{
   display: flex;
   flex-direction: row;
+  margin-top: 7px;
+  
 
-
+}
+.loc-dest{
+  font-size: 18px;
+  letter-spacing: 4px;
 }
 .card-location{
-  width: 25px;
-  height:25px;
+  width: 22px;
+  height:22px;
 }
 .des-h1{
-  font-size: 40px;
+  font-size: 42px;
   font-weight: bold;
 }
 .des-date{
   font-size: 20px;
-  font-weight: bold;
+  font-weight: normal;
+}
+.card-info{
+  margin-left: 35px;
+  margin-top: 20px;
+}
+.des-text{
+  font-size: 16px;
+  line-height: 1.4;
 }
