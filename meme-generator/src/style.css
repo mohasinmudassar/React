@@ -2,6 +2,9 @@ body {
   margin: 0;
   font-family: "karla", sans-serif;
 }
+main{
+  padding:46px;
+}
 .nav{
   display: flex;
   justify-content: center;
@@ -29,9 +32,19 @@ body {
   margin-top: 30px;
 }
 .form{
-  width : 100%;
-  margin-left: 40px;
-  margin-top: 20px;
-  margin-right: 50px;
+  display:grid;
+  grid-template:40px 40px / 1fr 1fr;
+  gap:45px;
+
+}
+.form-input{
+  font-family: "karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+}
+.form-button{
+  grid-column: 1/-1;
+  font-family: "karla", sans-serif;
+  font-size: 20px;
 
 }

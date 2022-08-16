@@ -1,10 +1,10 @@
 import Navbar from "./Navbar";
-import Form from "./Form";
+import Meme from "./Meme";
 export default function App() {
   return (
     <div >
         <Navbar />
-        <Form />
+        <Meme />
     </div>
   );
 }
