@@ -30,19 +30,18 @@ body {
 .card{
   width: 192px;
   font-size: 14px;
-  margin-left: 40px;
+  margin-left: 60px;
+
 }
 .card-image{
   width: 225px;
   height: 298px;
-  margin-left: 35px;
   margin-top: 80px;
   border-radius: 5px;
 }
 .card-stats{
   display: flex;
   flex-direction: row;
-  text-overflow: ellipsis;
 }
 .card-location{
   margin-left: 5px;
