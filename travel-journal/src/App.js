@@ -1,18 +1,26 @@
 import Navbar from "./Navbar";
 import Card from "./Card";
 import "./index.css";
+import data from "./Data";
 
-function App() {
-  return (
+export default function App() {
+  
+    const cards = data.map(item => {
+      return(
+        <Card
+          key={item.id}
+          {...item}
+
+        />
+      )
+    })
+    return(
     <div>
       <header>
         <Navbar/>
-        <Card />
-        <Card />
-        <Card />
+        {cards}
       </header>
     </div>
   );
 }
 
-export default App;
