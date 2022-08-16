@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: "karla", sans-serif;
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #F55A5A ;
+  background-image: linear-gradient(to right, #672280 , #A626D3);
+  color: white;
+}
+.nav-img{
+  width: 50px;
+  height: 52px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.nav-h2{
+  margin-right: auto;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.nav-h4{
+  font-size: 17px;
+  font-weight: 500;
+  margin-right: 40px;
+  margin-top: 30px;
+}
