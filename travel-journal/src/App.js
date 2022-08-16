@@ -8,7 +8,7 @@ function App() {
       <header>
         <Navbar/>
         <Card />
-        
+        <Card />
         <Card />
       </header>
     </div>
