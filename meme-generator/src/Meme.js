@@ -1,14 +1,19 @@
 import React from 'react';
 import './style.css';
+import memeData from './memeData';
 
 export default function Form() {
-    function handleClick(){
-        <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank"></a>
+
+    let url
+    function getMemeImage(){
+        const memesArray = memeData.data.memes;
+        const randomNumber = Math.floor(Math.random() * memesArray.length);
+        url = memesArray[randomNumber].url;
     }
     return(
         <main>
-            
-            <form className='form'>
+            <p className='url-img'>{url}</p>
+            <div className='form'>
                 <input 
                     type="text" 
                     placeholder="Top text" 
@@ -19,8 +24,10 @@ export default function Form() {
                     placeholder="Bottom text" 
                     className='form-input'
                 />
-                <button className='form-button' onCLick ={handleClick} type="button">Get a new Meme Image</button>
-            </form>
+                <button 
+                    className='form-button' onCLick ={getMemeImage} type="button">Get a new Meme Image
+                </button>
+            </div>
         </main>   
     )
 }
