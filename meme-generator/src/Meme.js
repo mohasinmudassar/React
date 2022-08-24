@@ -6,7 +6,6 @@ export default function Form() {
 
     const [memeImage , setmemeImage] = React.useState("")
 
-
     function getMemeImage(){
         const memesArray = memeData.data.memes;
         const randomNumber = Math.floor(Math.random() * memesArray.length);
@@ -15,7 +14,6 @@ export default function Form() {
     }
     return(
         <main>
-            <p className='url-img'>{url}</p>
             <div className='form'>
                 <input 
                     type="text" 
