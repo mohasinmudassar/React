@@ -1,10 +1,11 @@
-import React from 'react';
+import React ,{useState} from 'react';
 import './style.css';
 import memeData from './memeData';
 
+
 export default function Form() {
 
-    const [memeImage , setMemeImage] = React.useState("")
+    const [memeImage , setMemeImage] = useState("");
 
     function getMemeImage(){
         const memesArray = memeData.data.memes;
@@ -27,7 +28,7 @@ export default function Form() {
                 />
                 <button 
                     className='form-button' 
-                    onCLick ={getMemeImage} 
+                    onClick ={getMemeImage} 
                     >
                         Get a new meme image 🖼
                 </button>
