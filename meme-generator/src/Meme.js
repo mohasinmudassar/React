@@ -29,7 +29,7 @@ export default function Form() {
                     className='form-button' 
                     onCLick ={getMemeImage} 
                     >
-                        Get a new Meme Image
+                        Get a new meme image 🖼
                 </button>
             </div>
             <img src={memeImage} className = "meme-image"/>
