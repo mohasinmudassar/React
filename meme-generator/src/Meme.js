@@ -4,6 +4,9 @@ import memeData from './memeData';
 
 
 export default function Form() {
+    
+    //const [memeImage , setMemeImage] = useState("");
+
 
     const [meme , setMeme] = useState({
         topText : "",
@@ -11,17 +14,14 @@ export default function Form() {
         randomImage : ""
     })
 
-    function memeContent(){
-        setMeme
-    }
+    const [allMemeImages , setAllMemeImages] = useState(memeData)
 
-    const [memeImage , setMemeImage] = useState("");
 
     function getMemeImage(){
         const memesArray = memeData.data.memes;
         const randomNumber = Math.floor(Math.random() * memesArray.length);
-   
-        setMemeImage(memesArray[randomNumber].url )
+        const url = memesArray[randomNumber].url
+        setMeme(memesArray[randomNumber].url )
     }
     return(
         <main>
