@@ -5,6 +5,12 @@ import memeData from './memeData';
 
 export default function Form() {
 
+    const [meme , setMeme] = useState({
+        topText : "",
+        bottomText : "",
+        randomImage : ""
+    })
+
     const [memeImage , setMemeImage] = useState("");
 
     function getMemeImage(){
