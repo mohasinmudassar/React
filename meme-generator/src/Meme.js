@@ -11,6 +11,10 @@ export default function Form() {
         randomImage : ""
     })
 
+    function memeContent(){
+        setMeme
+    }
+
     const [memeImage , setMemeImage] = useState("");
 
     function getMemeImage(){
