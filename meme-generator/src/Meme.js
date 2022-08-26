@@ -7,7 +7,7 @@ export default function Form() {
     
     //const [memeImage , setMemeImage] = useState("");
 
-
+    // using state and objects
     const [meme , setMeme] = useState({
         topText : "",
         bottomText : "",
