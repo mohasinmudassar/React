@@ -1,13 +1,11 @@
-
-
+import React from "react"
+import boxes from "./boxes";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <a>
-          Learn React
-        </a>
-      </header>
+    <div >
+      <h1>Boxes will go here</h1>
+
+      
     </div>
   );
 }
