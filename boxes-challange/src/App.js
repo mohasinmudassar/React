@@ -1,6 +1,7 @@
 import React from "react"
 import boxes from "./boxes";
 import "./index.css";
+import Box from "./Box"
 
 function App(props) {
   const [squares, setSquares]=React.useState(boxes)
@@ -11,9 +12,7 @@ function App(props) {
     backgroundColor: props.darkMode? '#222222' : '#cccccc'
   }
   const squareElements = squares.map(square => (
-    <div style={styles} className="box" key={square.id}>
-
-    </div>
+    <Box style={styles} className="box" key={square.id} on={square.on} />
   ))
 
 
